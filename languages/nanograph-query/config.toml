@@ -1,0 +1,12 @@
+name = "nanograph query"
+grammar = "nanograph_query"
+path_suffixes = ["gq"]
+line_comments = ["// "]
+block_comment = ["/*", "*/"]
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false },
+]
+tab_size = 2

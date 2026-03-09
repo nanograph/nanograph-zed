@@ -1,0 +1,6 @@
+{
+  "name": "tree-sitter-nanograph-schema",
+  "version": "0.1.0",
+  "private": true,
+  "main": "grammar.js"
+}

@@ -1,0 +1,19 @@
+id = "nanograph"
+name = "nanograph"
+version = "0.10.0"
+schema_version = 1
+authors = ["nanograph"]
+description = "nanograph schema (.pg) and query (.gq) support."
+repository = "https://github.com/nanograph/nanograph-zed"
+
+[grammars.nanograph_schema]
+repository = "https://github.com/nanograph/nanograph-zed"
+rev = "main"
+path = "grammars/tree-sitter-nanograph-schema"
+
+[grammars.nanograph_query]
+repository = "https://github.com/nanograph/nanograph-zed"
+rev = "main"
+path = "grammars/tree-sitter-nanograph-query"
+
+[language_servers]
