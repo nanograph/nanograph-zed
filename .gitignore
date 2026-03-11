@@ -1,0 +1,11 @@
+# Build artifacts
+target/
+*.wasm
+
+# Zed grammar fetch caches
+grammars/nanograph_schema/
+grammars/nanograph_query/
+
+# Node
+node_modules/
+package-lock.json
