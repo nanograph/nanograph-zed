@@ -2,5 +2,8 @@
   "name": "tree-sitter-nanograph-query",
   "version": "0.1.0",
   "private": true,
-  "main": "grammar.js"
+  "main": "grammar.js",
+  "dependencies": {
+    "tree-sitter-cli": "^0.26.6"
+  }
 }

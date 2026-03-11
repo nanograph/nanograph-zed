@@ -5,15 +5,19 @@ schema_version = 1
 authors = ["nanograph"]
 description = "nanograph schema (.pg) and query (.gq) support."
 repository = "https://github.com/nanograph/nanograph-zed"
+languages = ["languages/nanograph-schema", "languages/nanograph-query"]
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
 
 [grammars.nanograph_schema]
 repository = "https://github.com/nanograph/nanograph-zed"
-rev = "main"
+rev = "f4de8b1b1ab7d4e6da6231ca412f759857e00158"
 path = "grammars/tree-sitter-nanograph-schema"
 
 [grammars.nanograph_query]
 repository = "https://github.com/nanograph/nanograph-zed"
-rev = "main"
+rev = "f4de8b1b1ab7d4e6da6231ca412f759857e00158"
 path = "grammars/tree-sitter-nanograph-query"
 
-[language_servers]

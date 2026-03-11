@@ -9,5 +9,11 @@ Supported files:
 
 The extension uses tree-sitter grammars stored in this repository under:
 
-- `editors/zed-nanograph/grammars/tree-sitter-nanograph-schema`
-- `editors/zed-nanograph/grammars/tree-sitter-nanograph-query`
+- `grammars/tree-sitter-nanograph-schema`
+- `grammars/tree-sitter-nanograph-query`
+
+For local development in Zed, install the Rust WebAssembly target first:
+
+```sh
+rustup target add wasm32-wasip2
+```
